@@ -1,0 +1,11 @@
+.menu-principal {
+    width: 100%;
+    background-color: #181920;
+    height: 130px;
+    border-bottom: 4.5px solid #ba1f33;
+  }
+  .logo img {
+    height: 100px;
+    margin-left: 14%;
+    margin-top: 10px;
+  }
