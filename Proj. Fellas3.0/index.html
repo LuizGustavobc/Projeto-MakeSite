@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,30 +8,97 @@
     <title>Elite Shape: Os Melhores Suplementos do Brasil</title>
     <link rel="stylesheet" type="text/css" media="screen" href="bootstrap-link/bootstrap.min.css">
     <script src="bootstrap-link/jquery.min.js"></script>
-    <link rel="stylesheet" href="css/main.css">
+
+    <style>
+        .logo img {
+            height: 110px;
+        }
+
+        .menu-principal {
+            width: 100%;
+            background-color: #181920;
+            height: 130px;
+            border-bottom: 4.5px solid #ba1f33;
+        }
+
+        .busca {
+            text-align: center;
+            width: 30%;
+            float: right;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .busca input {
+            background-image: url(../img/icone-search.png);
+            background-repeat: no-repeat;
+            background-position: 96%;
+            background-color: #fbfcfa;
+            width: 600px;
+            padding: 12px;
+            height: 40px;
+            margin-top: 40px;
+            border: 1px solid #fbfcfa;
+            border-radius: 10px;
+            position: absolute;
+            left: 20%;
+            align-items: center;
+            justify-content: center;
+            outline: none;
+        }
+
+        .redes-sociais ul li {
+            margin-left: 15px;
+            display: inline-block;
+            float: left;
+            list-style: none;
+        }
+
+        .redes-sociais ul li img {
+            height: 25px;
+        }
+
+        .redes-sociais {
+            margin-top: 30px;
+        }
+
+        /* deixam a apresentação do conteúdo adaptado a uma gama especifica 
+        de dispositivos não precisando mudar o conteúdo em si. */
+        @media screen and (max-width: 576px) {
+
+            /* <576 - Telas de Smartphones 
+            .busca input {
+            width: 100%;
+        }
+        */
+
+        }
+    </style>
 
 </head>
-<body>
-<div class="container-fluid">
-    <div class="row">
-    <header class="menu-principal">
-            <div class="logo col-2">
-                <a href="index.html"><img src="img/logo_demo.png" ;></a>
-            </div>
-            <div class="busca col-6">
-                <input placeholder="Pesquise seu suplemento ideal" type="text">
-            </div>
-            <div class="redes-sociais row">
-                <ul>
-                    <li><a href="" class="col-3"><img src="img/rss.png"></a></li>
-                    <li><a href="" class="col-3"><img src="img/face.png"></a></li>
-                    <li><a href="" class="col-3"><img src="img/tw.png"></a></li>
-                    <li><a href="" class="col-3"><img src="img/linkedin.png"></a></li>
-                 </ul>
 
+<body>
+    <div class="container-fluid">
+        <header class="menu-principal">
+            <div class="row">
+                <div class="logo col-2">
+                    <a href="index.html"><img src="img/logo_demo.png" ;></a>
+                </div>
+                <div class="busca col-6">
+                    <input placeholder="Pesquise seu suplemento ideal" type="text">
+                </div>
+                <div class="redes-sociais col-4">
+                    <ul>
+                        <li><a href="" class="col-3"><img src="img/rss.png"></a></li>
+                        <li><a href="" class="col-3"><img src="img/face.png"></a></li>
+                        <li><a href="" class="col-3"><img src="img/tw.png"></a></li>
+                        <li><a href="" class="col-3"><img src="img/linkedin.png"></a></li>
+                    </ul>
+
+                </div>
             </div>
-    </header>
+        </header>
     </div>
-</div>
 </body>
+
 </html>
