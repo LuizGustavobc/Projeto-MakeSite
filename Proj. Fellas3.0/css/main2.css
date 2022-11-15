@@ -9,3 +9,51 @@
     margin-left: 14%;
     margin-top: 10px;
   }
+  .busca {
+    text-align: center;
+    width: 30%;
+    float: right;
+    align-items: center;
+    justify-content: center;
+}
+
+.busca input {
+    background-image: url(../img/icone-search.png);
+    background-repeat: no-repeat;
+    background-position: 96%;
+    background-color: #fbfcfa;
+    width: 550px;
+    padding: 12px;
+    height: 40px;
+    margin-top: 40px;
+    border: 1px solid #fbfcfa;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+}
+.redes-sociais ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 7px;
+}
+.redes-sociais {
+  margin-top: 40px;
+}
+@media screen and (max-width: 980px){
+  .busca input {
+    width: 100%;
+  } 
+}
+@media screen and (max-width: 766px){
+  .busca input {
+    width: 100%;
+  } 
+}
+@media screen and (max-width: 576px) {
+
+  /*<576 - Telas de Smartphones*/
+  .busca input {
+    width: 100%;
+  }
+}
