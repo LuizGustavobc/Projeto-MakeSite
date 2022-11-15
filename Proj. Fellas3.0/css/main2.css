@@ -31,8 +31,10 @@ html{
   display: inline-block;
   list-style: none;
 }
-.redes-sociais {
-  margin-top: 35px;
+.redes-sociais ul {
+  margin-right: 2%;
+  margin-left: 10px;
+  margin-top: 45px;
 }
 @media screen and (min-width: 1200px) {
   .redes-sociais ul li {
