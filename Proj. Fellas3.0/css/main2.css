@@ -9,11 +9,12 @@ html{
 }
 .logo img {
   height: 100px;
-  margin-left: 14%;
-  margin-top: 10px;
+  margin-left: 15%;
+  margin-top: 15px;
 }
-
-
+.busca{
+  align-items: center;
+}
 .busca input {
   background-image: url(../img/icone-search.png);
   background-repeat: no-repeat;
@@ -27,33 +28,46 @@ html{
   border-radius: 10px;
   outline: none;
 }
+.busca{
+  text-align: center;
+}
 .redes-sociais ul li {
   display: inline-block;
   list-style: none;
+  padding: 5px;
 }
 .redes-sociais ul {
-  margin-right: 2%;
-  margin-left: 10px;
-  margin-top: 45px;
+  margin-top: 40px;
+  padding: 0px;
+  text-align: center;
 }
 @media screen and (min-width: 1200px) {
-  .redes-sociais ul li {
-    padding: 7px;
+  .busca input{
+    width: 85%;
+  }
+  .logo img {
+    height: 0px;
   }
 }
 @media screen and (min-width: 992px){
-  .redes-sociais ul li {
-    padding: 5px;
+  .logo img {
+    height: 100px;
   }
 }
 @media screen and (min-width: 768px){
-  .redes-sociais ul li {
-    padding: 5px;
+  .logo img {
+    height: 0px;
   }
 }
 @media screen and (min-width: 576px) {
-  .redes-sociais ul li {
+  .redes-sociais ul li{
     padding: 2px;
+  }
+  .busca input{
+    width: 90%;
+  }
+  .logo img {
+    height: 90px;
   }
 }
 @media screen and (max-width: 576px) {
