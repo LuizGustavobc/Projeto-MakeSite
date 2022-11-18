@@ -20,7 +20,7 @@ html{
   background-repeat: no-repeat;
   background-position: 96%;
   background-color: #fbfcfa;
-  width: 100%;
+  width: 95%;
   padding: 12px;
   height: 40px;
   margin-top: 40px;
@@ -39,37 +39,56 @@ html{
 .redes-sociais ul {
   margin-top: 40px;
   padding: 0px;
-  text-align: center;
+  align-items: center;
 }
-@media screen and (min-width: 1200px) {
-  .busca input{
-    width: 85%;
-  }
+@media screen and (max-width: 576px) {
   .logo img {
-    height: 0px;
-  }
-}
-@media screen and (min-width: 992px){
-  .logo img {
-    height: 100px;
-  }
-}
-@media screen and (min-width: 768px){
-  .logo img {
-    height: 0px;
+    height: 90px;
+    margin-left: 5%;
+    margin-top: 15px;
   }
 }
 @media screen and (min-width: 576px) {
-  .redes-sociais ul li{
-    padding: 2px;
-  }
-  .busca input{
-    width: 90%;
+  .busca input {
+    width: 100%;
   }
   .logo img {
     height: 90px;
   }
+  .redes-sociais ul li {
+    padding: 2px;
+  }
 }
-@media screen and (max-width: 576px) {
-  
+@media screen and (min-width: 768px){
+  .logo img {
+    height: 96px;
+  }
+  .redes-sociais ul li {
+    padding: 4px;
+  }
+  .busca input {
+    width: 89%;
+  }
+}
+@media screen and (min-width: 992px){
+  .redes-sociais ul li {
+    padding: 5px;
+  }
+  .busca input {
+    width: 90%;
+  }
+  .logo img {
+    height: 98px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .busca input {
+    width: 92%;
+  }
+  .redes-sociais ul li {
+    padding: 7px;
+  }
+  .logo img {
+    height: 100px;
+  }
 }
