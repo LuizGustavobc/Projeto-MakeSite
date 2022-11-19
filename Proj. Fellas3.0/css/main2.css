@@ -90,5 +90,9 @@ html{
   }
   .logo img {
     height: 100px;
+    margin-left: 25%;
+  }
+  .redes-sociais ul {
+    margin-left: 20%;
   }
 }
