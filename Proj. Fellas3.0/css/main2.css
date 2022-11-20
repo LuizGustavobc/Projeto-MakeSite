@@ -41,6 +41,35 @@ html{
   padding: 0px;
   align-items: center;
 }
+.header-2{
+  height: 70px;
+  width: 100%;
+}
+.menu ul li {
+  display: inline-block;
+  left: 24%;
+  padding: 15%;
+}
+.menu ul li:hover {
+  border-bottom: solid 3.5px #ba1f33;
+  height: 50px;
+}
+.menu ul li a {
+  color: #181920;
+  text-decoration: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: Cocogoose;
+  transition-property: color;
+  transition-duration: 0.4s;
+}
+.menu ul li a:hover {
+  color: #ba1f33;
+}
+.login-botao{
+  float: right;
+}
+
 @media screen and (max-width: 576px) {
   .logo img {
     height: 90px;
