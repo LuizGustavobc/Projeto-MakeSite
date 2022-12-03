@@ -74,7 +74,7 @@ html{
 
 .texto-destaque {
   width: 100%;
-  height: 150px;
+  height: 120px;
   margin-top: 40px;
   position: relative;
 }
@@ -118,93 +118,54 @@ html{
 .entrega:before {
   content: '';
   display: inline-block;
-  float: left;
   background-repeat: no-repeat;
   width: 100px;
   height: 30px;
   position: absolute;
-  float: left;
 }
 .cartao:before {
   background-image: url(../img/cartao.png);
-  top: 47.4%;
+  top: 58%;
   right: 85.3%;
 }
 .desconto:before {
   background-image: url(../img/porcentagem.png);
-  top: 47.4%;
+  top: 58%;
   right: 62.3%;
 }
 .cadeado:before {
   background-image: url(../img/cadeado.png);
-  top: 41.4%;
+  top: 51%;
   right: 39.8%;
 }
 .entrega:before {
   background-image: url(../img/entrega.png);
-  top: 45.4%;
+  top: 56%;
   right: 21.5%;
 }
 
 .col-100 {
   width: 100%;
-  float: left;
+  height: 200px;
   position: relative;
 }
-.col-33 {
-  width: 25%;
+.col-100 ul {
+  margin-left: 3%;
+  height: 100%;
+  width: 100%;
+}
+.col-100 ul li {
+  display: inline-block;
   position: relative;
-  margin-left: 75px;
-  padding-left: 18px;
-  float: left;
-}
-.bloco-texto {
-  margin-top: 2em;
-}
-.bloco-texto img {
   height: 250px;
-  width: 400px;
-  z-index: -1;
+  width: 32%;
+  padding: 15px;
 }
-.position {
-  position: relative;
-  left: 60%;
-  margin-top: -110px;
-  padding-bottom: 100px;
-}
-.btn {
-  text-decoration: none;
-  justify-content: center;
-  text-transform: uppercase;
-  font-size: 11px;
-  line-height: 21px;
-  font-weight: bold;
-  color: #fbfcfa;
-  margin: 0 5px;
-  padding: 15px 15px;
-  border: 2px solid #ba1f33;
-  position: relative;
-  overflow: hidden;
-  cursor: pointer;
-  font-family: Cocogoose;
-}
-.btn:before {
-  content: '';
-  position: absolute;
-  top: 0%;
-  left: 0%;
+.col-100 ul li a img {
   width: 100%;
   height: 100%;
-  background-color: #ba1f33;
-  z-index: -1;
-  transition: 0.7s ease;
 }
-.btn1:before {
-  width: 0;
-  height: 100%;
-  top: 0;
-  left: 0;
-}
+
 @media screen and (max-width: 768px) {
   .busca input {
     width: 80%;
@@ -233,6 +194,9 @@ html{
     padding: 12px;
   }
 
+  .texto-destaque {
+    height: 50px;
+  }
   .texto1 {
     width: 100%;
   }
@@ -240,6 +204,13 @@ html{
     width: 63%;
     margin-left: 20%;
     font-size: 18px;
+  }
+  .texto2 {
+    height: 0%;
+  }
+
+  .col-100 ul li {
+    height: 150px;
   }
 }
 @media screen and (min-width: 768px){
