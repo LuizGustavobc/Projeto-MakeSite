@@ -74,10 +74,34 @@ html{
 
 .texto-destaque {
   width: 100%;
-  float: left;
+  height: 200px;
+  margin-top: 40px;
   position: relative;
 }
-.texto-destaque p {
+.texto1 {
+  width: 70%;
+  align-items: center;
+  text-align: center;
+}
+.texto1 h1{
+  font-size: 35px;
+  border-top: #181920 2px solid;
+  border-bottom: #181920 2px solid;
+  text-transform: uppercase;
+  font-family: Lemon;
+  margin-left: 24%;
+}
+.texto1 h1 strong {
+  color: #931c2c;
+}
+.texto2 {
+  width: 100%;
+  padding: 4px;
+}
+.texto2 p {
+  margin-top: 15px;
+  display: inline-block;
+  text-align: center;
   display: inline-block;
   color: #191920;
   font-size: 15px;
@@ -85,47 +109,23 @@ html{
   font-family: Cocogoose;
   text-transform: uppercase;
 }
-.texto-destaque h1 {
-  border-top: #181920 2px solid;
-  border-bottom: #181920 2px solid;
-  color: #181920;
-  font-size: 30px;
-  font-weight: 100;
-  text-transform: uppercase;
-  font-family: Lemon;
-}
-.texto-destaque strong {
-  color: #931c2c;
-}
-.texto-destaque {
-  text-align: center;
-}
-.col-25 p {
-  width: 25%;
-  display: inline-block;
-  float: left;
-  text-align: center;
-}
+
 .cartao:before,
 .desconto:before,
 .cadeado:before,
 .entrega:before {
   content: '';
-  height: 30px;
-  width: 15px;
   display: inline-block;
   float: left;
   background-repeat: no-repeat;
-  padding-left: 10px;
 }
 .cartao:before {
   background-image: url(../img/cartao.png);
   position: absolute;
   width: 100px;
   height: 30px;
-  padding: 10px;
-  top: 69%;
-  right: 88%;
+  top: 40%;
+  right: 90%;
   float: left;
 }
 .desconto:before {
@@ -133,9 +133,8 @@ html{
   position: absolute;
   width: 100px;
   height: 30px;
-  padding: 10px;
-  top: 70%;
-  right: 63.2%;
+  top: 39.7%;
+  right: 65.2%;
   float: left;
 }
 .cadeado:before {
@@ -143,9 +142,8 @@ html{
   position: absolute;
   width: 100px;
   height: 30px;
-  padding: 10px;
-  top: 65%;
-  right: 37%;
+  top: 36%;
+  right: 38.6%;
   float: left;
 }
 .entrega:before {
@@ -153,9 +151,8 @@ html{
   position: absolute;
   width: 100px;
   height: 30px;
-  padding: 10px;
-  top: 69%;
-  right: 14.5%;
+  top: 39%;
+  right: 17.2%;
   float: left;
 }
 @media screen and (max-width: 768px) {
