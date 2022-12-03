@@ -148,16 +148,23 @@ html{
 
 .col-100 {
   width: 100%;
+  float: left;
   position: relative;
+}
+.col-33 {
+  width: 25%;
+  position: relative;
+  margin-left: 75px;
+  padding-left: 18px;
+  float: left;
 }
 .bloco-texto {
-  position: relative;
-  height: 200px;
+  margin-top: 2em;
 }
 .bloco-texto img {
-  width: 88%;
-  margin-left: 10%;
-  height: 100%;
+  height: 250px;
+  width: 400px;
+  z-index: -1;
 }
 .position {
   position: relative;
@@ -165,7 +172,7 @@ html{
   margin-top: -110px;
   padding-bottom: 100px;
 }
-.position a {
+.btn {
   text-decoration: none;
   justify-content: center;
   text-transform: uppercase;
@@ -181,7 +188,7 @@ html{
   cursor: pointer;
   font-family: Cocogoose;
 }
-.position a::before {
+.btn:before {
   content: '';
   position: absolute;
   top: 0%;
@@ -191,13 +198,10 @@ html{
   background-color: #ba1f33;
   z-index: -1;
   transition: 0.7s ease;
+}
+.btn1:before {
   width: 0;
   height: 100%;
-  top: 0;
-  left: 0;
-}
-.position a:hover::before {
-  width: 102%;
   top: 0;
   left: 0;
 }
