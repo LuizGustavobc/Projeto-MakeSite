@@ -109,7 +109,6 @@ html{
   font-family: Cocogoose;
   text-transform: uppercase;
 }
-
 .cartao:before,
 .desconto:before,
 .cadeado:before,
@@ -155,6 +154,7 @@ html{
   right: 17.2%;
   float: left;
 }
+
 @media screen and (max-width: 768px) {
   .busca input {
     width: 80%;
@@ -181,6 +181,15 @@ html{
   }
   .menu  ul li {
     padding: 12px;
+  }
+
+  .texto1 {
+    width: 100%;
+  }
+  .texto1 h1 {
+    width: 63%;
+    margin-left: 20%;
+    font-size: 18px;
   }
 }
 @media screen and (min-width: 768px){
