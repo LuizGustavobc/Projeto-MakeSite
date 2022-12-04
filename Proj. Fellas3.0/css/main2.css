@@ -212,6 +212,76 @@ html{
   top: 0;
   left: 0;
 }
+
+.destaque {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  height: 140px;
+}
+.destaque p {
+  width: 150px;
+  display: inline-block;
+  color: #191920;
+  font-size: 18px;
+  padding: 10px;
+  font-family: Cocogoose;
+  text-transform: uppercase;
+  border-top: #181920 2px solid;
+  border-bottom: #181920 2px solid;
+}
+
+.produto {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 90px;
+}
+.produto ul {
+  width: 100%;
+  height: 100%;
+  margin-left: 8px;
+}
+.produto ul li {
+  display: inline-block;
+  width: 23%;
+  height: 100%;
+  margin-left: 20px;
+  text-align: center;
+}
+.produto ul li img {
+  width: 100%;
+  height: 58%;
+}
+.produto ul li p {
+  margin-top: 25px;
+  width: 100%;
+  height: 10%;
+  font-size: 15px;
+  font-family: Cocogoose;
+  color: black;
+  text-transform: uppercase;
+}
+.produto ul li h4 {
+  width: 100%;
+  height: 12%;
+  color: #ba1f33;
+  font-family: Cocogoose;
+}
+.produto ul li a {
+  width: 100%;
+  height: 20%;
+  font-family: lemon;
+  text-decoration: none;
+  color: #181920;
+  text-transform: uppercase;
+  border: #181920 3px solid;
+  padding: 15px;
+}
+.produto ul li a:hover {
+  color: #fbfcfa;
+  background-color: #181920;
+}
+
 @media screen and (max-width: 768px) {
   .busca input {
     width: 80%;
