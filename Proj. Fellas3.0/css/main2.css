@@ -144,7 +144,70 @@ html{
   right: 21.5%;
 }
 
-
+.col-100 {
+  width: 100%;
+  float: left;
+  position: relative;
+}
+.col-33 {
+  width: 25%;
+  position: relative;
+  margin-left: 75px;
+  padding-left: 18px;
+  float: left;
+}
+.bloco-texto {
+  margin-top: 2em;
+}
+.bloco-texto img {
+  height: 250px;
+  width: 400px;
+  z-index: -1;
+}
+.position {
+  position: relative;
+  left: 60%;
+  margin-top: -110px;
+  padding-bottom: 100px;
+}
+.btn {
+  text-decoration: none;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 11px;
+  line-height: 21px;
+  font-weight: bold;
+  color: #fbfcfa;
+  margin: 0 5px;
+  padding: 15px 15px;
+  border: 2px solid #ba1f33;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  font-family: Cocogoose;
+}
+.btn:before {
+  content: '';
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: #ba1f33;
+  z-index: -1;
+  transition: 0.7s ease;
+}
+.btn1:before {
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.btn:hover::before {
+  width: 102%;
+  top: 0;
+  left: 0;
+}
 
 @media screen and (max-width: 768px) {
   .busca input {
