@@ -1,0 +1,372 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+html {
+  overflow-x: hidden;
+}
+ul {
+  padding: 0px !important;
+}
+h1 {
+  width: 750px;
+  position: relative;
+  left: 25%;
+}
+
+.menu-principal {
+  width: 100%;
+  background-color: #181920;
+  height: 130px;
+  border-bottom: 4.5px solid #ba1f33;
+}
+
+main,
+.content {
+  margin: 0 auto;
+  width: 980px;
+  position: relative;
+}
+
+.logo {
+  float: left;
+  padding: 16px;
+  width: 70%;
+  position: absolute;
+  right: 40%;
+}
+.logo img {
+  height: 100px;
+  width: 100px;
+}
+
+.redes-sociais ul li {
+  margin-left: 25px;
+  display: inline-block;
+  float: left;
+  list-style: none;
+}
+.redes-sociais ul li img {
+  height: 25px;
+}
+.redes-sociais {
+  float: right;
+  width: 26%;
+  position: absolute;
+  left: 90%;
+  margin-top: 30px;
+}
+
+.header-2 {
+  background-color: #fbfcfa;
+  width: 100%;
+  margin: 0 auto;
+  padding: 16px;
+  height: 85px;
+}
+
+.menu-urls {
+  height: 80px;
+  border-bottom: 3px solid #efefef;
+}
+
+.menu ul li {
+  display: inline-block;
+  color: #8b8b8b;
+  margin-left: 30px;
+  position: relative;
+  left: 24%;
+}
+
+.menu ul li:hover {
+  border-bottom: solid 3.5px #ba1f33;
+  height: 50px;
+}
+
+.menu ul li a {
+  color: #181920;
+  text-decoration: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: Cocogoose;
+  letter-spacing: 1.5px;
+  transition-property: color;
+  transition-duration: 0.4s;
+}
+
+.menu ul li a:hover {
+  color: #ba1f33;
+}
+
+.menu {
+  width: 70%;
+  float: left;
+}
+
+.busca {
+  text-align: center;
+  width: 30%;
+  float: right;
+  align-items: center;
+  justify-content: center;
+}
+
+.busca input {
+  background-image: url(../img/icone-search.png);
+  background-repeat: no-repeat;
+  background-position: 96%;
+  background-color: #fbfcfa;
+  width: 600px;
+  padding: 12px;
+  height: 40px;
+  margin-top: 40px;
+  border: 1px solid #fbfcfa;
+  border-radius: 10px;
+  position: absolute;
+  left: 20%;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+}
+
+.col-100 {
+  width: 100%;
+  float: left;
+  position: relative;
+}
+.banner {
+  height: 90%;
+  width: 105%;
+}
+.destaque {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.destaque p {
+  width: 190px;
+  display: inline-block;
+  color: #191920;
+  font-size: 15px;
+  padding: 10px;
+  font-family: Cocogoose;
+  text-transform: uppercase;
+  border-top: #181920 2px solid;
+  border-bottom: #181920 2px solid;
+}
+.catalogo {
+  width: 100%;
+  height: 300px;
+}
+.catalogo2 {
+  width: 100%;
+  height: 300px;
+  margin-top: 130px;
+}
+.produtos {
+  display: flex;
+  float: left;
+  width: 25%;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 120px;
+  line-height: 20px;
+}
+.produtos img {
+  width: 300px;
+  height: 200px;
+}
+.produtos img:hover {
+  margin-top: 3px;
+}
+.produto p {
+  font-size: 15px;
+  font-family: Cocogoose;
+  text-transform: uppercase;
+}
+.produto h4 {
+  font-family: Cocogoose;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #ba1f33;
+  margin-top: 5px;
+}
+.compra {
+  text-decoration: none;
+  font-size: 15px;
+  padding: 12px 12px;
+  font-family: Lemon;
+  text-transform: uppercase;
+  color: #181920;
+  border: #181920 2px solid;
+}
+.compra:hover {
+  color: #fbfcfa;
+  background-color: #181920;
+  border: #181920 2px solid;
+}
+.col-33 {
+  width: 33%;
+  float: left;
+  padding: 10px;
+}
+.banner2 {
+  margin-top: 50px;
+  margin-left: 80px;
+  width: 90%;
+  height: 90%;
+}
+.destaque2 {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.destaque2 p {
+  width: 220px;
+  display: inline-block;
+  color: #191920;
+  font-size: 15px;
+  padding: 10px;
+  font-family: Cocogoose;
+  text-transform: uppercase;
+  border-top: #181920 2px solid;
+  border-bottom: #181920 2px solid;
+}
+.col-2 {
+  width: 50%;
+}
+.footer-1 h3 {
+  text-align: left;
+}
+.footer-1 p {
+  width: 90%;
+  text-align: left;
+}
+.footer-1 {
+  background-color: #181920;
+  color: #ffffff;
+}
+.footer-2 {
+  background-color: black;
+  width: 100%;
+  height: 90px;
+  color: #c1c1c1;
+  margin-top: 50px;
+}
+.footer-2 p {
+  font-family: Lemon;
+  font-size: 18px;
+  margin-top: 30px;
+  margin-left: 85px;
+}
+.busca2 {
+  text-align: center;
+  width: 30%;
+  float: right;
+  align-items: center;
+  justify-content: center;
+}
+.busca2 input {
+  background-image: url(../img/mensagem.png);
+  background-repeat: no-repeat;
+  background-position: 96%;
+  width: 500px;
+  padding: 12px;
+  height: 45px;
+  border: 1px solid #fbfcfa;
+  border-radius: 6px;
+  position: absolute;
+  left: 90%;
+  bottom: 7px;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+}
+input::placeholder {
+  color: #181920;
+}
+.col-2 {
+  width: 50%;
+  position: relative;
+  float: left;
+}
+.footer-texto h3 {
+  font-family: Cocogoose;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.footer-texto p {
+  font-family: Lemon;
+  font-size: 12px;
+  color: #898989;
+}
+.clock {
+  color: #898989;
+}
+.clock:before {
+  content: '';
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  background-image: url(../img/clock.png);
+  float: left;
+  background-repeat: no-repeat;
+  padding-left: 5px;
+}
+.local:before,
+.emailico:before,
+.telefoneico:before {
+  content: '';
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  float: left;
+  background-repeat: no-repeat;
+  padding-left: 10px;
+}
+.local:before {
+  background-image: url(../img/local1.png);
+  position: relative;
+  right: 3px;
+}
+.emailico:before {
+  background-image: url(../img/email.png);
+  position: relative;
+  right: 8px;
+  height: 12px;
+  width: 12px;
+}
+.telefoneico:before {
+  background-image: url(../img/telefone.png);
+  position: relative;
+  right: 4px;
+}
+.col-4 {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #181920;
+}
+::-webkit-scrollbar-thumb {
+  background: #ba1f33;
+}
+@font-face {
+  font-family: Cocogoose;
+  src: url(./CocogooseProItalic-trial.ttf);
+}
+@font-face {
+  font-family: Lemon;
+  src: url(./LEMONMILK-Bold.otf);
+}
